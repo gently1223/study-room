@@ -1,0 +1,28 @@
+.form {
+display: flex;
+}
+
+.input {
+border: none;
+border-radius: 0;
+padding: 3% 5%; /* */ 
+width: 80%; 
+font-size: 1.2em; /* 1.2em */
+background-color: #47474A;
+}
+
+input:focus, textarea:focus, select:focus{
+outline: none;
+}
+
+.sendButton {
+color: #fff !important;
+text-transform: uppercase;
+background: #7289DA;;
+padding: 20px;
+display: inline-block;
+border: none;
+width: 20%;
+font-family: 'Merriweather', serif;
+font-weight: bold;
+}

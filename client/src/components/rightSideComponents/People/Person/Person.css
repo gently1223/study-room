@@ -1,0 +1,11 @@
+.namecontainer {
+    border-radius: 4px;
+    padding: 2% 5%;
+    margin-left: 2%;
+    margin-bottom: 2%; 
+    display: inline-block !important;
+    max-width: 95%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: white;
+}   

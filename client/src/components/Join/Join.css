@@ -1,0 +1,117 @@
+html, body {
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
+}
+  
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+}
+
+
+.chatHeading { 
+  color: #7289DA;
+}
+
+.belowHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.joinInnerContainer {
+  position: relative;
+  width: 40%;
+  padding : 5% 5%; 
+  border-radius: 10px;
+}
+
+.bookIcon {
+  height: 30px;
+  position: absolute; 
+  animation: shakeit 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shakeit{
+  0% {
+    transform: translate(-15px,20px);    
+  }
+  100% {
+    transform: translate(-15px, -20px);
+  }
+}
+
+.joinInput {
+  border-radius:5px;
+  padding: 15px 20px;
+  width: 100%;
+  border-style: solid ;
+  border-color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.helpbutton {
+  color: #7289DA; 
+  font-size: 2rem;
+}
+
+.helptext {
+  color: grey;
+  text-align: left;
+  margin:0; 
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
+
+.bg-quat {
+  background-color: 6c6c6e;
+}
